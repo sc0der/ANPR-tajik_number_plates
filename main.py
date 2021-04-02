@@ -1,7 +1,8 @@
 import numpy as np
 import cv2 as cv
+from const import videoPath
 
-vidcap = cv.VideoCapture("rtsp://admin:1234567.@10.254.36.11:554/ISAPI/Streaming/Channels/102")
+vidcap = cv.VideoCapture(videoPath)
 # plates_cascade = cv.CascadeClassifier('haarcascade_russian_plate_number.xml')
 width = 1000
 height = 1000
