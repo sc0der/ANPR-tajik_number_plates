@@ -1,1 +1,0 @@
-videoPath = "rtsp://admin:1234567.@10.254.36.11:554/ISAPI/Streaming/Channels/102"
